@@ -1,0 +1,95 @@
+
+html{
+   background-image: url(../img/1.jpg);
+   margin: 2%;
+
+}
+body{
+ background-color: rgba(148, 113, 104, 0.8);
+ width: 90vw;
+  min-width:328px;
+  max-width: 1906PX;
+}
+nav{
+  height: 0px !important;
+  background-color: transparent !important;
+
+}
+
+.transparent{
+  background-color: transparent !important;
+}
+
+.card-publicacion{
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  margin-bottom: 0 !important;
+}
+
+.formulario{
+  margin-left: 2% !important;
+  margin-top: 0% !important;
+  padding-top: 0 !important;
+
+}
+
+.lista-redes{
+  margin-right: 12px;
+}
+
+@media(min-width: 150px) and (max-width: 461px){
+
+  .lista-menu{
+    width: 480px !important;
+    padding-left: 200PX !important;
+  }
+}
+
+.lista-redes li{
+
+ margin: 25px;
+
+}
+
+h4{
+  padding-left: 50px;
+}
+
+
+@media (max-width: 600px){
+  .row .col{
+    float: left !important;
+  }
+
+  .row .col.s5 {
+    width: -webkit-fill-available !important;
+    
+  }
+  h4{
+        padding-left: 50px;
+  }
+
+
+    .lista-menu{
+    width: 410px;
+    padding-left: 100PX;
+  }
+
+}
+
+.imagen-do{
+  float: left; 
+}
+
+@media(max-width: 818){
+ 
+
+   .row .col.s5 {
+    display: inline;
+    width: 400px !important;
+    
+  }
+
+
+
+}
